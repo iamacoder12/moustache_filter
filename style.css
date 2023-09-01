@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas {
+    animation-name: neon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes neon {
+    from {box-shadow: 1px 1px 40px red;}
+    to {box-shadow: 1px 1px 40px greenyellow;}
+}
